@@ -1,0 +1,41 @@
+import java.util.*;
+
+class Main
+{
+
+  public static void main (String[]args)
+  {
+
+    Scanner s = new Scanner (System.in);
+
+    int a, b, c;
+
+      System.out.println ("Enter three numbers");
+
+      a = s.nextInt ();
+
+      b = s.nextInt ();
+      c = s.nextInt ();
+
+    if (a > b && a > c)
+
+      {
+
+	System.out.println ("a is a smallest no");
+
+
+      }
+
+    else if (b > c)
+
+      {
+
+	System.out.println ("b is a smallest no");
+
+      }
+    else
+      {
+      System.out.println ("c is a smallest no");
+
+  }
+}}
