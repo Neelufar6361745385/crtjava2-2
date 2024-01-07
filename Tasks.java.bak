@@ -1,0 +1,30 @@
+class First
+{
+	void m1()
+	{
+         System.out.println("m1 method in first class");
+	}
+	void m2()
+	{
+		System.out.println("m1 method in first class");
+	}
+}
+class Second extends First
+{
+	void m3()
+	{
+		System.out.println("m3 method in second class");
+	}
+}
+class Tasks
+{
+	public static void main(String args[])
+	{
+		SecondYear S1=new SecondYear();
+		S1.m1();
+		S1.m2();
+		S1.m3();
+	}
+}
+
+
