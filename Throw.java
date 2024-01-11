@@ -1,19 +1,23 @@
 import java.io.*;
 class Throw
 {
-		public static void main(String[] args)throws Exception
+	public static void main(String args[])throws Exception
 	{
-			FileReader f1=new FileReader("abc.java");
-			int ch;
-			ch=f1.read();
-			while (ch!=-1)
-		{
-				System.out.println((char)ch);
-				ch=f1.read();
-		}
+		FileWriter f1=new FileWriter("abc.txt");
+		f1.write('d');
+		f1.write("\n");
+		f1.write(97);
+		f1.write("\n");
+		f1.write("Java");
+		f1.write("\n");
+		f1.write("Python");
+		f1.flush();
 		f1.close();
 	}
 }
 
 
- 
+
+
+
+		
