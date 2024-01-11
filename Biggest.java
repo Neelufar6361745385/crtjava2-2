@@ -1,7 +1,5 @@
 import java.util.*;
-class Div
-{
-}
+class Biggest
 {
 	public static void main(String[] args)
 	{
@@ -12,11 +10,11 @@ class Div
 		b=s.nextInt();
 		if(a>b)
 		{
-			System.out.println(a+"is Biggest);
+			System.out.println(a+"is Biggest");
 		}
 		else
 		{
-			System.out.println(b+"is the Biggest);
+			System.out.println(b+"is the Biggest");
 		}
 	}
 }
