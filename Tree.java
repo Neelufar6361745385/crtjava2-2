@@ -1,21 +1,17 @@
 import java.io.*;
 class Tree
 {
-	public static void main(String[] args)throws Exception
+	public static void main(String args[])throws Exception
 	{
-			FileWriter f1=new FileWriter("abc.txt");
-			f1=write('d');
-			f1=write("\n");
-			f1=write(97);
-			f1=write("\n");
-			f1=write("java");
-			f1=write("\n");
-			f1=write("python");
-			f1.flush();
-			f1.close();
+		FileReader f1=new FileReader("abc.java");
+		int ch;
+		ch=f1.read();
+		while(ch!=-1)
+		{
+			System.out.print((char)ch);
+			ch=f1.read();
+		}
+		f1.close();
 	}
+	
 }
-
-
-
-			 
