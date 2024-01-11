@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 class Test
 {
-	public static void main(String[] args) throws Exception
+	public static void main(String args[])throws Exception
 	{
 		int a,b,c;
 		Properties p=new Properties();
@@ -13,12 +13,4 @@ class Test
 		c=a+b;
 		System.out.println(c);
 	}
-	}
-
-
-
- 
-
-
-
- 
+}
